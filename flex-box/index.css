@@ -1,0 +1,44 @@
+.container-1{
+    display: flex;
+
+}
+.container-2{
+    display: flex;
+justify-content: space-between;
+}
+.container-3{
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap-reverse;
+}
+div{
+    border:1px #ccc solid;
+    padding:10px;
+}
+.container-2-box
+{
+    flex-basis: 25%;
+}
+.container-3-box
+{
+    flex-basis: 12%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+ gap:125px;
+}
+.box-1{
+ flex: 1;  
+ order: 2; 
+}
+.box-2{
+    flex: 2;   
+ order: 3; 
+
+   }
+   .box-3{
+    flex: 1;  
+ order: 1; 
+
+   }
